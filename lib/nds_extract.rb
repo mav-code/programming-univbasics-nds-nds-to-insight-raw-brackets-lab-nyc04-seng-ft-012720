@@ -2,7 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-  Hash.new = totals
+  totals = {}
   directorcounter = 0
   while directorcounter < directors_database.length do
     total = 0
