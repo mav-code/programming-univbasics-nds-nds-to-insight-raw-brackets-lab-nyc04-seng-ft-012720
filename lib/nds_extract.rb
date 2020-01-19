@@ -14,6 +14,7 @@ def directors_totals(nds)
       totals[directors_database[directorcounter][:name]] = total
     directorcounter += 1
   end
+  p totals
   
   
   
